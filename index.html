@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS Studio</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+    <body>
+        <div class="container">
+        <h1>AB Testing Assignment Handin Webpage</h1>
+
+        <h2>Part 1: Data Collection (in Studio)</h2>
+
+        <div class="section-name"> 
+            <h3>
+                A brief overview of the project
+            </h3> 
+            <p> 
+                The goal of the project is to prove that through the design changes that I made to version A of the webpage, I created version B of the webpage. Version B features stylistic and layout changes that should make it easier to scan information and thus help the user schedule their appointment in less time than before. 
+                A/B testing helped me make useful observations on the effectiveness of one design over another because only with A/B was I able to create a null and alternative hypothesis and concretely fail to reject/reject the null hypothesis with statistical significance. Although there might be more elaborate methods, A/B testing is the most  advanced testing we have learned in the course thus far. 
+            </p>
+        </div>
+
+        <div class="section-name">
+            <h3>
+                Information about how you changed the given webpage 
+            </h3> 
+            <p> 
+               When creating version B, I started by adding a border around each appointment so that it is easier to distinguish what appoinment the user 
+               was lookint at. Then, I bolded the date text, made the doctor's name bigger and changed the font color to maroon so that 
+               there is more visual contrast between the backgroun and text. Lastly, I changed the text color of the buttons to black to again, add more visual contrast 
+               between the text and the backgroun. I also changed the layout of the buttons so that they now sit horizontal to one another. I decided to make the 'Schedule Appoinment'
+               button the first button to the left because as users scanned the dates and doctor's names, I wanted the user's eyes to first land on the 'Schedule Appoinment'
+               button so that they don't waste time seaching for it. My general goal was to make each element more distinctive and introduce a flow to the website that would enable the user to scan
+               the website quickly. Here were version A and version B:
+            </p>
+            <div class="banner">
+                <img src="assets/Screenshot 2024-03-14 at 11.10.53 AM.png" alt="Banner Image"> <br>
+            </div>
+            <div class="banner">
+                <img src="assets/Screenshot 2024-03-14 at 11.11.16 AM.png" alt="Banner Image"> <br>
+            </div>
+        </div>
+
+        <div class="section-name">
+            <h3>
+                <br>Selected a metric of choice in addition to the two given metrics
+            </h3> 
+            <p>
+                Misclick rate;
+                Time on page;
+                Time to first click
+             </p>
+        </div>
+
+        <h2>Part 2: Analysis</h2>
+        
+        <div class="section-name">
+            <h3><br>Has a null and alternative hypothesis for each metric (3 null hypotheses and 3 alternative hypothesis in total):</h3> 
+            <p> Misclick rate:
+                <br>Ho: The distribution of misclicks will be the same for version A of the website and version B of the webpage 
+                <br>Ha: The distribution of  misclicks will be different for version A of the website and version B of the webpage </p>
+                <br>
+                Time on page:
+                <br>Ho: The time on page on version A of the website is not different as the time on page on version B of the webpage  
+                <br>Ha: The time on page on version B of the website is different than the time on page on version A of the webpage 
+                <br>
+                <br>
+                Time to first click: 
+                <br>Ho: The time to first click on version A of the webpage is not different as the time to first click on version B of the webpage
+                <br>Ha: The time to first click on version A of the webpage is bigger than the time to first click on version B of the webpage
+            </div>
+
+        <div class="section-name">
+            <h3>
+                <br>Provides reasoning for each alternative hypotheses (3 reasonings in total)
+                </h3> 
+            <p> Misclick rate: I believe that there might be a difference in the misclicked rate between users that see version A of the webpage and users 
+                that see version B of the webpage and so I made it my alternate hypothesis. I am confident that the alternative hypothesis is true because I expect 
+                the misclicked rate on version B of the website to be lower because I made the ‘Schedule Appointment’button lay horizontal to the other button 
+                and also changed its text color so that there is more button text contrast. These changes will provide a statistically significant difference as I added more 
+                contrast and increased scannability for the reader, allowing them to be able to properly gauge what button they are clicking and thus decreasing the misclick rate. 
+                <br>
+            
+                <br>Time on page: I believe that the time on page on version B of the website might be different from the time on page on version A of the webpage. I am confident that 
+                the alternative hypothesis is true because I expect the time on page on version B of the website is lower than the time on page on version A of the webpage because I increased 
+                visual contrast through my bolding of the date and making the doctor's name maroon. I also added a border around each appointment to make the distinction more clear. Lastly, I
+                changed the text color and layout of the buttons so that the ‘Schedule Appointment’ button is closer to the text the user reads, and theoretically the ‘Schedule Appointment’ 
+                button is the first button the user's eyes move to once they are done scanning the text. Therefore, they will click it first and decrease their time on the page. 
+                <br>
+                <br>Time to first click: I believe that the time to first click on version A of the webpage might be different from the time to first click on version B of the webpage. 
+                I am confident that the alternative hypothesis is true because I expect the time to first click on version A of the webpage to be higher than the time to first click on 
+                version B of the webpage, as one of my goals when designing version B of the website was to minimize the time to first click relative to version A. To accomplish this goal, 
+                I changed the layout of the buttons so that they lay next to each other, and also moved the ‘Schedule Appointment’ button to be the inner button, or the first button the reader 
+                scans. With these changes, the user should read the ‘Schedule Appointment’button first and decrease their time to first click relative to users of version A, making me confident 
+                that my alternative hypothesis is true. 
+                <br>
+            
+            </p>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Provides predictions with reasoning for whether they will end up rejecting or failing to reject each null hypothesis</h3> 
+            <p> 
+                
+                Misclick rate: I predict that I will reject the null hypothesis because I made stylistic changes to version B that 
+                will result in a statistically significant difference between the distribution of misclicks for version A of the website 
+                and version B of the webpage.  First, I bolded the date information and emphasized the name of the doctor with maroon text 
+                 and changed the ‘Schedule Appointment’ button through stylistic changes (such as layout and color). I believe that misclicking
+                  and unclear design are closely related, as unclear design can lead a user to misclick. I address unclear design by adding a
+                   border around each appointment so that the user knows what button they  are clicking for which appointment. By making my 
+                   stylistic changes, I made the design of version B webpage clearer and cleaner, thus providing a statistically significant
+                    difference and decreasing the misclick rate leading me to predict that I will reject the null hypothesis. 
+                    <br>
+                    <br>Time on page: I predict that I will reject the null hypothesis because users are quick to scan and click buttons, leading
+                them to quickly click the correct button and spend less time on the page. When I created version B, I made use of the 
+                 horizontal space with my ‘Schedule Appointment’button within each appointment slot to increase scalability and visual
+                contrast between the two buttons. These changes will have a statistically significant difference that will support that 
+                  version B is an easier web page to navigate if its time on page is less than version A. I also made the ‘Schedule 
+                  Appointment’button the closest button to the text the user reads. These changes address my prediction that in version A, 
+                  the cramming of elements on the page will lead to the user spending more time on the page to scan and click through buttons 
+                  before they are able to schedule their appointment; thus also leading me to predict that I will reject the null hypothesis. 
+                  <br>
+                  <br>Time to first click: I predict that I will reject the null hypothesis because of the layout change I made to my ‘Schedule 
+                Appointment’ button to lay horizontally to the other button and be the closest button to the doctor's name. This change 
+                utilized more of the space on the page and allows the user to gravitate toward the ‘Schedule Appointment’ buttons faster. 
+                In other words, I believe that the change I made to the layout of my buttons will result in a statistically significant 
+                difference when the time to first click for version A is higher than it is for version B. By making the change to my button 
+                layout in version B, the user will be able to scan the information faster and make their first click. In version A, I predict 
+                that the user will spend more time intaking information and will thus take longer to make their first click; thus also leading 
+                me to predict that I will reject the null hypothesis. 
+                <br>
+
+            </p>
+        </div>
+
+        <h2>Statistical Test:</h2>
+        <h3> <br>Metric: Misclick Rate</h3>
+        <div class="section-name">
+            <h3> Statistical test chosen</h3> 
+            <p> ꭓ² test. Given that the misclick rate is categorical because it is a boolean, I choose the ꭓ² test because there is only two options: either misclicking or not misclicking.</p>
+        </div>
+
+        <div class="section-name">
+            <h3> Statistical test successfully executed</h3> 
+            <div class="banner">
+                <img src="assets/Screenshot 2024-03-14 at 11.22.27 AM.png" alt="Banner Image"> <br>
+            </div>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Correct conclusion of statistical significance</h3> 
+            <p> There is no statistical significance because my p-value is  0.47, which is greater than the desired p-value of 0.05 or less to be statistically significant at the 95% level of significance. My p-value of 0.47 can be interpreted as the chance that the groups are actually the same, indicating that there is about a 47% chance that my version A and version B webpages are the same on the distribution of misclicks. Because this chance is above 0.05, this indicated that version A and version B were too similar on the distribution of misclicks. </p>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Correct decision to either reject or fail to reject the null hypothesis</h3> 
+            <p> Fail to reject the null hypothesis as my p-value of 0.47 is greater than 0.05, meaning that my results are not statistically significant and thus I fail to reject the null hypothesis. Since there is no statistical significance, I fail to reject  my null hypothesis that the distribution of misclicks will be the same for version A of the website and version B of the webpage. This indicated that my prediction of rejecting the null hypothesis was incorrect and that my layout and stylistic changes did not have the statistically significant difference I hoped to accomplish.  </p>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Accurate & descriptive analysis of statistical values (e.g. t-value, p-value, chi-squared statistic etc.)</h3> 
+            <p> I discuss my p-value and its implications to statistical insignificance above. My value of 0.51 for ꭓ² is the magnitude of difference between the distributions of the misclicks. My expected values grid represents the different between the theoretical distribution and my actual distribution for my ꭓ²  test values. My expected value grid conveys that the theoretical distribution of my test and my action distribution are the same for both version A and version B of the webpage. This aligns with my statistical insignificance because the similarity in my expected value grid is complemented with the fact that I was not able to prove that there was statistically significant difference with my p-value of 0.47. </p>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h3> <br>Metric: Time on page</h3>
+        <div class="section-name">
+            <h3> Statistical test chosen</h3> 
+            <p> Two-tailed t-test. Since time is a continuous variable, a t-test seemed the most fitting. My alternative hypothesis for the time on page metric is that there is a difference in the time on page for version A and version B of the website, which definitely aligns with the difference that the two-tailed t-test tests for.  
+            </p>
+        </div>
+
+        <div class="section-name">
+            <h3> Statistical test successfully executed</h3> 
+            <div class="banner">
+                <img src="assets/Screenshot 2024-03-14 at 11.28.10 AM.png" alt="Banner Image"> <br>
+            </div>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Correct conclusion of statistical significance</h3> 
+            <p> I found statistical significance! I know this because my p-value is 0.000137, which is less than the 0.05 to achieve statistical significance at the 95% significance level.
+
+                I found a statistically significant difference in the time spent on the menu for version A and version B, a p=  0.000137<=0.05. As the average time to first click spent on version A (12.02 sec) is higher than that of version B (4.7sec), I see evidence that users spend more time before their first page for version A than version B.
+                 
+            </p>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Correct decision to either reject or fail to reject the null hypothesis</h3> 
+            <p> I reject my null hypothesis because I established statistical significance through my p-value of  0.00059, meaning that I found statistical significance at the 95% confidence level. 
+
+            </p>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Accurate & descriptive analysis of statistical values (e.g. t-value, p-value, chi-squared statistic etc.)</h3> 
+            <p> The average time on page for version A was about 22325 milliseconds, or 22.325 seconds. The average time on page for version B was about 9296 milliseconds, or 9.296 seconds. These averages indicated that, on average, the user spent 13.1 seconds less on version B than on version A. 
+
+                Variance is the measure measures how far a set of data is spread out, or how far in the second front he means the other points in the sample. My variance for version A calculated into seconds is 15.32 white my variance for version B is 4.44 seconds. The small variance of version B relative  to version A indicates that the data points in version B tend to be very close to the mean, and to each other.
+                
+                T-score is the difference in stand deviations from the sample mean, the t-score for my time on page metric is the absolute value of -3.916 or 3.916. Although an extreme value of t-scores is over 2.5, I primarily focus on my p-value of 0.00059, which is statistically significant. 
+                
+                The degrees of freedom account for the variability in the data. My degrees of freedom here is about 25, which indicates that there are 25 independent factors within the data that vary. This indicates that my observations included variability in the data represented. 
+                            
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <h3> <br>Metric: Time to first click</h3>
+        <div class="section-name">
+            <h3> Statistical test chosen</h3> 
+            <p> One-tailed t-test. Since time is a continuous variable, a t-test seemed the most fitting.  My alternative hypothesis for the time to first click metrics asserts that the time to first click on version A of the webpage is bigger than the time to first click on version B. I am measuring for a specific difference (key word bigger) so the one-tailed t-test is the most fitting given that the one-tailed t-test tests if x (experimental) number is bigger than y (baseline) number.</p>
+        </div>
+
+        <div class="section-name">
+            <h3> Statistical test successfully executed</h3> 
+            <div class="banner">
+                <img src="assets/Screenshot 2024-03-14 at 11.30.22 AM.png" alt="Banner Image"> <br>
+            </div>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Correct conclusion of statistical significance</h3> 
+            <p> I found statistical significance! I know this because my p-value is 0.00059, which is less than the 0.05 to achieve statistical significance at the 95% significance level.
+
+                I found a statistically significant difference in the time spent on the menu for version A and version B, as p= 0.00059<=0.05. As the average time spent on version B (9.2sec) is lower than that of version A (22.3sec), I see evidence that users spend more time on page for version A than version B.
+                
+            </p>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Correct decision to either reject or fail to reject the null hypothesis</h3> 
+            <p> I reject my null hypothesis because I established statistical significance through my p-value of  0.000137, meaning that I found statistical significance at the 95% confidence level. 
+            </p>
+        </div>
+
+        <div class="section-name">
+            <h3> <br>Accurate & descriptive analysis of statistical values (e.g. t-value, p-value, chi-squared statistic etc.)</h3> 
+            <p> The average time to first click for version A was about 12021 milliseconds, or 12.0 seconds. The average time to first click e for version B was about 4703.8  milliseconds, or 4.7 seconds. These averages indicated that, on average, the user spent 7.3 seconds less on version B than on version A to make their first click. 
+
+                Variance is the measure measures how far a set of data is spread out, or how far in seconds from the mean is the other points in the sample. My variance for version A calculated into seconds is 6.61 while my variance for version B is 1.43 seconds. The small variance of version B relative to version A indicates that the data points in version B tend to be very close to the mean, and to each other.
+                
+                T-score is the difference in stand deviations from the sample mean, the t-score for my time on page metric is 5.18. Although an extreme value of t-scores is over 2.5, I primarily focus on my p-value of 0.000137, which is statistically significant. 
+                
+                The degrees of freedom account for the variability in the data. My degrees of freedom here is about 24, which indicates that there are 24 independent factors within the data that vary. This indicates that my observations included variability in the data represented. 
+                          
+            </p>
+        </div>
+
+        <h2><br>Summary Statistics:
+        </h2>
+        <h3> Provides summary statistics (average & variance) for each website version (both A and B): </h3> 
+        <p>
+            Below are summary tables of the mean, median, and mode values for my metrics. The mode is the most common number that appears in your set of data. However, since the time on page and time to first click metrics are continuous, it makes sense that neither version A or version B had a mode because all of the time data collected is different. The mean, or the average, I have already discussed above. The median is the midpoint in my dataset. For the time on page metric, my median is 20.237 seconds for version A and 7.644 seconds for version B. For the time to first click metric, the median for version A was 9.523 seconds and for version B 4.457 seconds. Since the misclick data is captured in booleans, I can’t capture median and mean data. However, the mode for both version A and version B of the webpage was false, indicating that there were no misclicks for a majority of the appointments scheduled for both versions. 
+
+        </p>
+        <div class="banner">
+            <img src="assets/Screenshot 2024-03-14 at 11.32.53 AM.png" alt="Banner Image"> <br>
+        </div>
+        <div class="banner">
+            <img src="assets/Screenshot 2024-03-14 at 11.33.09 AM.png" alt="Banner Image"> <br>
+        </div>
+        <p>With about 24 participants, I was able to collect 24 data points. After focusing on the misclick rate, time on page, and time to first click metrics, I was able to apply the ꭓ² test, the two-tailed t-test, and the one-tailed t-test, respectively. For the time on page metric, the average time spent on version B (9.2sec) is lower than that of version A (22.3sec). For the time to first click metric, the average time to first click spent on version A (12.02 sec) is higher than that of version B (4.7sec). For both time metrics, version B users took less seconds than version A users. Thus, they took the action to first click and finish their business on the page much faster.
+            <br>For the time to first click metric, my variance calculated in seconds was 6.61 for version A and 1.43 seconds for version B. For the time on page metric, my variance calculated in seconds was 15.32 for version A and 4.44 seconds for version B. The variance values imply that the inputs from users of version A have more variability, or that users of version B spend about the same time to make their first click and stay on the page while the time spent on version A varies more largely between users. These variances align with the averages, in which version A users also take more time to make their first click or time to spend on the page.
+            
+            
+            <br>Putting it all together, the consistent trends throughout the time to first click and time on page summary statistics of users in version A taking a longer time is complemented  by the mode of misclicks being false. In other words, although users of version A are taking a longer time to click and on the page relative to versionB, users are still managing to not misclick. While the users take longer, they are still as accurate with their click as version B users. Thus, while I did not improve the misclick rate with changes on version B of the website, I did help the users spend less time clicking first and less time on the page. Continuing on, I was able to reject my two null hypothesis for time to first click and time on page, but I failed to reject my null hypothesis for the misclicks. However, I was glad that I was able to fail to reject my null hypothesis because this is practice for real world applications. I was also able to use all types of tests we were taught:  ꭓ² test, the two-tailed t-test, and the one-tailed t-test. From this testing, I learned that my redesign of the website sped up the general interaction between the user and the website, but it did not improve the user’s actions on the website, such as misclicking less. 
+            
+
+        </p>
+
+
+    </div>
+    </body>
+</html>
